@@ -9,4 +9,4 @@ Methods:
 4. Built-in extensions, math methods
 5. Syntax, template literals
 
-![alt text](C:\Users\123\Documents\Coding Bootcamp\ES6\lesson1)
+
