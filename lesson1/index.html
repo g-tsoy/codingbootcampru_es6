@@ -1,0 +1,53 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="ind.js">
+		</script>
+	</head>
+
+	<body>
+		<h1>First</h1>
+			<h2>Arrow function+rest paraments:</h2> 
+			<button type="button" onclick="getSum(5,4,7)">Sum</button>
+			<div id="ans"></div>
+
+		<hr>
+
+		<h1>Second</h1>
+			<h2>For...of loop:</h2>
+			<form> Enter words to capitalize first letter: <input id="word" type="text">
+			</form>
+			<button onclick="addToArray()">Add</button>
+			<button onclick="showArray()">Show my set!</button>
+			<button onclick="location.href='index.html';">Try again!</button>
+			<div id="myArrayShown"></div>
+
+		<hr>
+
+		<h1>Third</h1>
+			<h2>Default parametrs:</h2>
+			<form>Default type for empty string if is number. Enter empty string to control: <input id="str" type="text">
+			</form>
+			<button onclick="func()">Result</button>
+			<div id="emptyString"></div>				
+	
+		<hr>
+
+		<h1> Forth </h1>
+			<h2> Math methods </h2>
+			<form> Enter number to get the natural logarithm of it: <input id="number" type="text">
+			</form>
+			<button onclick="getLog()">Result</button>
+			<div id="log"></div>
+		
+		<hr>	
+		
+		<h1> Fifth </h1>
+			<h2> Template literals</h2>
+			<button onclick="templatLiter()">Result</button>
+			<div id="tempLit"></div>
+	</body>
+	</html>
